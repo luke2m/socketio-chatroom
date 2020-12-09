@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="A simple chat application built in Node.js using Express and Socket.IO">
- 		<meta name="keywords" content="socket.io chat app, socket.io, node.js, express.js, JavaScript">
- 		<meta name="author" content="Moniba Ali">
+	  <meta name="robots" content="noindex" />
+	  
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socket.io Chat App</title>
+    <title>Chat</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pattaya" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.min.css">
@@ -19,10 +19,10 @@
 				<div class="row">
 					<div class="large-7 medium-7 small-12 columns small-centered">
 						<form id="login-form">
-							<h2>Socket.io Chat App</h2>
+							<h2>Chat</h2>
 							<p id="error-msg"></p> 
 							<input type="text" name="username" placeholder="Enter your username" >
-							<input type="text" name="room" placeholder="Enter a chat room name" >
+							<input type="text" name="room" placeholder="Enter a chat room name. If you don't know, type home" >
 							<input type="submit" value="Join Chat">
 						</form>
 					</div>	
@@ -30,7 +30,7 @@
 	   	</div>
 			<div class="row" id="message-area">
 				<div class="large-8 columns small-centered">
-					<h2>Socket.io Chat App</h2>
+					<h2>Chat</h2>
 					<div class="chat-wrap">
 						<div class="top">
 							<h5 class="room-title"></h5>
@@ -49,6 +49,7 @@
 				</div>
 			</div>
 			<footer>
+				<p><a href="https://hmsscioly.js.org">Back to HMS SciOly website</a></p>
 				<p>View on <a href="https://github.com/moniba-ali/socketio-chatroom" target="_blank">GitHub</a></p>
 			</footer>
 		</div>
