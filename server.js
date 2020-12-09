@@ -55,7 +55,7 @@ io.on('connection', function(socket) {
 		} else {
 			callback({
 				nameAvailable: false,
-				error: 'Hey, please fill out the form!'
+				error: 'Hey, please fill out your username and password!'
 			});
 		}
 	});
